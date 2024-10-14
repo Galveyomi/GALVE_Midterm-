@@ -111,5 +111,14 @@ public class UniversitySystem {
         // Displaying the instructor's information
         System.out.println("Instructor Details:");
         instructor.showInfo();  // Method call to display instructor's full info
+
+         System.out.println();  // Line break for readability
+
+          // Creating an Instructor object and initializing with some data
+        Instructor instructor = new Instructor("Engr. Tanya C. Jovillano", 28, "EMP213", "Computer Science", 85000);
+        // Displaying the instructor's information
+        System.out.println("Instructor Details:");
+        instructor.showInfo();  // Method call to display instructor's full info
+        
     }
 }
