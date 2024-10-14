@@ -112,13 +112,12 @@ public class UniversitySystem {
         System.out.println("Instructor Details:");
         instructor.showInfo();  // Method call to display instructor's full info
 
-         System.out.println();  // Line break for readability
+         // Creating the second Instructor object and initializing with different data
+Instructor instructor2 = new Instructor("Eng. Emily A. Santos", 42, "EMP765", "Electrical Engineering", 90000);
+// Displaying the second instructor's information
+System.out.println("Instructor 2 Details:");
+instructor2.showInfo();  // Method call to display instructor's full info
 
-          // Creating an Instructor object and initializing with some data
-        Instructor instructor = new Instructor("Engr. Tanya C. Jovillano", 28, "EMP213", "Computer Science", 85000);
-        // Displaying the instructor's information
-        System.out.println("Instructor Details:");
-        instructor.showInfo();  // Method call to display instructor's full info
         
     }
 }
